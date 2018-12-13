@@ -8,11 +8,11 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def mycom(self):
+    async def generateorder(self):
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("I can do stuff!")
+        await self.bot.say("Generating questioner order. Please wait... ")
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
