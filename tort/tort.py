@@ -12,12 +12,7 @@ class Mycog:
         """This does stuff!"""
 
         #Your code will go here
-<<<<<<< Updated upstream
-        await self.bot.say("Generating questioner order. Please wait... ")
-=======
-        await self.bot.say("Generating order. Please wait...")
-        await self.bot.
->>>>>>> Stashed changes
+        await self.bot.say("Generating order. Please wait")
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
