@@ -12,7 +12,7 @@ class Mycog:
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("Miles you really fucked up. Fix you bot already. ")
+        await self.bot.say("Generating questioner order. Please wait... ")
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
