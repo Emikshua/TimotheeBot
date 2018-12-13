@@ -8,12 +8,17 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def generateorder(self, user : discord.Member):
+    async def SUMMON(self, user):
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("Generating order. Please wait" + user.mention)
-
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
+        await self.bot.say("SUMMON THE GODS!")
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
