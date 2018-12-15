@@ -14,7 +14,7 @@ class Mycog:
 
         #Your code will go here
         await self.bot.say("Generating the order! Please wait...")
-        await self.bot.say (channel.members)
+        await self.bot.say (channel.Members)
 
 def setup(bot):
     bot.add_cog(Mycog(bot))
