@@ -16,6 +16,7 @@ class Mycog:
         await self.bot.say("Generating the order! Please wait...")
         time.sleep(5)
         await self.bot.say("Miles, Sebastian, Aidan, Steph")
+
     async def tstart(self):
 
         await self.bot.say("Starting game. Please wait")
