@@ -15,6 +15,6 @@ class Mycog:
         #Your code will go here
         await self.bot.say("Generating the order! Please wait...")
         time.sleep(5)
-        await self.bot.say("Fatal Error. Check logs.")
+        await self.bot.say("Miles, Sebastian, Aidan, Steph")
 def setup(bot):
     bot.add_cog(Mycog(bot))
