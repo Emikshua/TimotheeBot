@@ -8,12 +8,12 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def generateorder(self, user):
+    async def generateorder(self):
         """This does stuff!"""
 
         #Your code will go here
         await self.bot.say("Generating the order! Please wait...")
-        wait(10)
+        time.sleep(5)
         await self.bot.say("Fatal Error. Check logs.")
 def setup(bot):
     bot.add_cog(Mycog(bot))
