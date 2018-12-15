@@ -14,12 +14,7 @@ class Mycog:
 
         #Your code will go here
         await self.bot.say("Generating the order! Please wait...")
-        time.sleep(5)
-        await self.bot.say("Miles, Sebastian, Aidan, Steph")
-        time.sleep(1)
-        await self.bot.say("Starting game. Please wait")
-        time.sleep(5)
-        await self.bot.say("Game can not be started. Minimum of 4 players is needed. Current amount of players: X846483X")
-        await self.bot.say("FATAL ERROR. PLEASE RESTART NOW")
+        await self.bot.say (channel.members)
+
 def setup(bot):
     bot.add_cog(Mycog(bot))
